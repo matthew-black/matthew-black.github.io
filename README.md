@@ -1,3 +1,3 @@
 # matthew-black.github.io
 
-Just a goofy little practice website for 2.5
+Just a goofy little practice website about disc golf for 2.5.
