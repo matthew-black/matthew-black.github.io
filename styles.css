@@ -1,6 +1,72 @@
 /*Practice Style Sheet for 3.5*/
 
 body {
-  background-color: #6DADFF;
+  background-color: #3E4570;
+  color: #AF6E57;
 }
 
+.navbar {
+
+}
+
+h1.blocktitle {
+  color: #3E4570;
+  background-color: #AF6E57;
+  border-left: 40px solid #5DAF20;
+  display: block;
+  width: 642px;
+  font-size: 5em;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  font-family: Helvetica;
+}
+
+h1 {
+  color: #5DAF20;
+}
+
+h2 {
+  color: #5DAF20;
+}
+
+
+a:link {
+  color: #5DAF20;
+}
+
+a:visited {
+  color: #AF6E57;
+}
+
+a:active {
+  color: #AF6E57;
+}
+
+a:hover {
+  color: #963311;
+}
+
+footer {
+  text-align: center;
+}
+
+#findacourse{
+  width: 702px;
+  height: 200px;
+  display: block;
+  background-image: url("Images/lamirada.jpg");
+  background-repeat: no-repeat;
+  margin-top: 40px;
+
+}
+
+#answer{
+  margin-top: 200px;
+}
+
+p.centertext {
+  text-align: center;
+  color: #5DAF20;
+  font-size: 2em;
+  background-color: #3E4570;
+}
