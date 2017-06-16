@@ -3,6 +3,7 @@
 body {
   background-color: #3E4570;
   color: #AF6E57;
+  width: 800px;
 }
 
 .navbar {
@@ -15,7 +16,7 @@ h1.blocktitle {
   border-left: 40px solid #5DAF20;
   display: block;
   width: 642px;
-  font-size: 5em;
+  font-size: 6em;
   margin-bottom: 50px;
   padding-left: 20px;
   font-family: Helvetica;
@@ -69,4 +70,15 @@ p.centertext {
   color: #5DAF20;
   font-size: 2em;
   background-color: #3E4570;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width: 100%;
+  }
+  h1.blocktitle {
+    width: 80%;
+    font-size: 2em;
+  }
+
 }
