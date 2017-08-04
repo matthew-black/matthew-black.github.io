@@ -10,7 +10,7 @@ header {
   background-color: #37A3FF;
   border-radius: 20px;
   color: #064479;
-  width: 40%;
+  width: 50%;
 
 }
 
@@ -20,13 +20,17 @@ table {
 }
 
 td {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   padding: 0px;
   margin: 0px;
   border: 0px;
   background-color: #1C90F3;
 }
 
-
-// .
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  text-align: center;
+}
